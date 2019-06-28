@@ -1,0 +1,7 @@
+下载网址：
+http://www.codeblocks.org/downloads/26#windows
+认真读完介绍，最好下载带GCC的版本。
+遇到问题：
+1.安装好提示找不到编译器和调试器
+答：Settings-compiler-Toolchain executables-autodetect
+    Settings-Debugger-Default-Executable path,目录找到MinGW下的gdb32\bin\gdb32.exe
